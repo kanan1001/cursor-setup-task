@@ -1,4 +1,4 @@
-# Cursor IDE Setup — My First Dev Environment 🚀
+# Cursor IDE Setup — My First Dev Environment 
 
 ## What Is This?
 This repository documents my first-ever experience setting up a developer 
@@ -43,6 +43,16 @@ a terminal command actually is.
 ### 4. Codex login wasn't obvious
 There was no visible "Sign In" button. Had to use Cmd+Shift+P and search 
 for the Codex command palette option to find the login flow.
+
+### 5. GitHub authentication kept failing
+When trying to push, GitHub opened a browser asking for a device code — 
+but the code expired before I could enter it. Had to use a Personal Access 
+Token (PAT) instead, which required going to GitHub settings to generate one.
+
+### 6. git push got stuck waiting for input
+After running git push, the terminal just sat there with a blinking cursor 
+and no prompt. Turned out it was waiting for credentials silently. Had to 
+use Ctrl+C to cancel and try a different approach.
 
 ## What I Learned
 - How to use a terminal for the first time
