@@ -59,6 +59,9 @@ use Ctrl+C to cancel and try a different approach.
 - What git clone actually does (copies a remote repo to your local machine)
 - That errors are normal — every issue had a solution
 - AI tools like Claude Code and Codex live right inside your code editor
+- GitHub no longer accepts passwords — you need a Personal Access Token to push
+- How to embed credentials in a git remote URL to bypass authentication prompts
+- Ctrl+C is your best friend when the terminal gets stuck
 
 ## Time Taken
 ~45 minutes (mostly troubleshooting git installation)
